@@ -16,7 +16,8 @@
   }
 
   document.querySelectorAll('a[href="contact.html"]').forEach((link) => {
-    if ((link.textContent || '').toLowerCase().includes('enquiry')) {
+    const label = (link.textContent || '').toLowerCase();
+    if (label.includes('enquiry') || label.includes('enquire') || label.includes('discuss your group')) {
       link.setAttribute('href', 'contact.html#get-in-touch');
     }
   });
