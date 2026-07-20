@@ -153,6 +153,7 @@ h3 { font-size: 1.25rem; }
 .media-feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
 .media-feature-grid figure { margin: 0; overflow: hidden; border-radius: var(--radius); background: var(--white); box-shadow: var(--shadow); }
 .media-feature-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.media-feature-grid figure:first-child img { aspect-ratio: 2 / 3; object-fit: cover; }
 .media-feature-grid figcaption { padding: .9rem 1rem 1rem; color: var(--navy); font-weight: 750; }
 
 .about-intro { display: grid; grid-template-columns: 1fr .87fr; align-items: start; gap: 5rem; }
