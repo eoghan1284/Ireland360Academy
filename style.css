@@ -150,7 +150,8 @@ h3 { font-size: 1.25rem; }
 .quote-card { margin: 0; padding: 1.7rem; border-radius: var(--radius); background: var(--white); border: 1px solid var(--border); box-shadow: 0 8px 22px rgba(24,60,50,.07); }
 .quote-card blockquote { margin: 0 0 1rem; color: var(--navy); font-size: 1.03rem; line-height: 1.55; }
 .quote-card figcaption { color: var(--moss); font-size: .88rem; font-weight: 750; }
-.media-feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+.media-feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; align-items: start; }
+.media-feature-stack { display: grid; gap: 1.2rem; align-content: start; }
 .media-feature-grid figure { margin: 0; overflow: hidden; border-radius: var(--radius); background: var(--white); box-shadow: var(--shadow); }
 .media-feature-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .media-feature-grid figure:first-child img { aspect-ratio: 2 / 3; object-fit: cover; }
